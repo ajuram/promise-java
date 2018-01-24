@@ -2,7 +2,7 @@
 A JAVA implementation of Promise `.then` control flow library for Java and Android.
 
 The Promise object represents the eventual completion (or failure)
-of an asynchronous method calls, and its resulting value.
+of asynchronous method calls, and its resulting value.
 
 A Promise is a proxy for a value not necessarily known when
 the promise is created. It allows you to associate handlers
@@ -18,9 +18,9 @@ please visit the official Mozilla Promise documentation
 @see <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise">
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise</a>
 
-This Android Promise Library slightly different than the native Javascript Promise.
+This Android Promise Library is slightly different than the native Javascript Promise.
 This promise object has two imprtant method i.e. `resolve()` and `reject()`,
-whenevey you done, your process just call resolve or reject
+whenever you are done, your method just call resolve or reject
 function based on resultant value.
 The resultant value will be automatically passed as argument to the
 followng `then()` or `error()` function.
@@ -32,7 +32,7 @@ Fork me on Github:
 
 ## HOW TO USE ?
 
-* Simply copy `Promise.java` into your source code folder, now you are ready to play with async flow chain lieke below.
+* Simply copy `Promise.java` into your source code folder, now you are ready to play with async flow chain like below.
 
 ```java
 promiseObject
